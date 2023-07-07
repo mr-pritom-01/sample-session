@@ -18,7 +18,13 @@
     display: flex;
 }
 .item {
-    margin-right: 20px;
+    margin-right: 5px;
     font-size: 25px;
     cursor: pointer;
+    text-align: right;
+
+}
+.item:hover {
+    color: red;
+    text-decoration: underline;
 }
