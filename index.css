@@ -1,30 +1,115 @@
 * {
-    margin: 1px;
-    padding: 1px;
+    margin: 0;
+    padding: 0;
 }
+/* manu bar starts here */
 .menu-container {
     background-color: rgba(0, 0, 0, 0.767);
     padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
+    border: 5px solid black;
     
 }
 .logo-photo {
-    width: 120px;
+    width: 100px;
+    padding: 1%;
+    margin-left: 300px;
+    cursor: pointer;
 }
 .menu {
     display: flex;
+    margin-right: 300px;
+    gap:30px;
+
 }
 .item {
     margin-right: 5px;
     font-size: 25px;
     cursor: pointer;
     text-align: right;
+    font-size: 30px;
+    border: 3px solid black;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 8px;
+
 
 }
 .item:hover {
     color: red;
+    background-color: burlywood;
     text-decoration: underline;
+    cursor: pointer;
+}
+/* banner section starts here */
+.logo {
+    width: 66%;
+    height: 66%;
+    padding: 10%;
+}
+.banner-section {
+    background-image: url('images/background.png'), linear-gradient(45deg,rgba(0, 0, 0, 0.771), rgb(42, 13, 13));
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    
+}
+.heading-line {
+    font-size: 100px;
+
+}
+.description {
+    font-size: 40px;
+    margin: auto;
+    text-align: left;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+.btn-primary {
+    padding: 4%;
+    font-size: 35px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.589);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+
+}
+.banner-text {
+    margin-left: 100px;
+    box-shadow: 5px 5px 15px;
+    padding: 7%;
+    text-align: left;
+}
+.red {
+    color: rgba(255, 0, 0, 0.633);
+}
+/* about us section starts */
+.about-us {
+    height: 50vh;
+    text-align: center;
+    padding: 10%;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+.ab-us {
+    background-color: red;
+}
+.ab-des {
+    font-size: 50px;
+    margin-top: 1%;
 }
